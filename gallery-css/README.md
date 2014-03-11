@@ -1,6 +1,7 @@
 ## Acknowledgements
 This code uses examples and ideas from this tutorial: [http://logoscreative.co/taking-control-of-wordpress-gallery-styling-without-a-plugin](http://logoscreative.co/taking-control-of-wordpress-gallery-styling-without-a-plugin)
 
+The polaroid css is taken from this tutorial: [http://zurb.com/playground/css3-polaroids](http://zurb.com/playground/css3-polaroids)
 
 ## Instructions
 
