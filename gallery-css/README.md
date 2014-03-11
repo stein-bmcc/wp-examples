@@ -26,3 +26,7 @@ Tips on implementing the styles
 When you're creating a gallery make sure to choose the file as the link (not attachment). An example of the kind of shortcode you should have is:
 `[gallery link="file" columns="0" ids="219,217,143,133"]`
 
+### Gallery Shortcodes
+You can create gallerys through the wysiwyg post tool which is just a way of writing gallery shortcodes. If you go into the text view tab you can see the shortcodes. You can also just edit or add them there too. 
+
+For more information on Gallery Shortcodes visit the [WordPress Codex page](http://codex.wordpress.org/Gallery_Shortcode)
