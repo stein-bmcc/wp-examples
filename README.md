@@ -6,3 +6,5 @@ The master branch contains all of the folders. You can fork/download that to get
 
 Each example is also in its own branch and release so you can download just the files for that example if you like.
 
+Visit [Releases](https://github.com/stein-bmcc/wp-examples/releases) to view and download them individually.
+
