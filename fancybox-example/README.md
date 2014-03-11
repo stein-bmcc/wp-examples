@@ -17,7 +17,7 @@ The files mostly from the tutorial are:
 
 ## Notes
 When you're creating a gallery make sure to choose the file as the link (not attachment). An example of the kind of shortcode you should have is:
-`[gallery link="file" columns="2" ids="219,217,143,133"]`
+`[gallery link="file" columns="0" ids="219,217,143,133"]`
 
 
 
