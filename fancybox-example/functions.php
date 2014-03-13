@@ -1,9 +1,16 @@
 <?php 
 
-//Copy and paste this into your functions.php
-//Start copying after here ------------------
 
-// Enqueue Scripts/Styles for our Lightbox
+//====================================================
+//Adding FancyBox
+
+
+//this removes the default styling the WP gives to the galleries.
+add_filter( 'use_default_gallery_style', '__return_false' );
+
+
+//Using Fancybox to add lightbox for images and galleries
+// we need to Enqueue our javascript and css files
 function add_fancybox() {
     wp_enqueue_script( 'fancybox-js', get_template_directory_uri() . '/fancybox/jquery.fancybox.pack.js', array( 'jquery' ), false, true );
     wp_enqueue_style( 'fancybox-style', get_template_directory_uri() . '/fancybox/jquery.fancybox.css' );
@@ -17,7 +24,7 @@ function add_fancybox() {
 }
 add_action( 'wp_enqueue_scripts', 'add_fancybox' );
 
+//end fancybox
+//====================================================
 
-//stop copying before here -----------------
-
- ?>
+?>

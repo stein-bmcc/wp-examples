@@ -1,4 +1,5 @@
-(function($) {
+    
+    (function($) {
 
     //Make modifications to this file as needed to customize fancybox to your needs.
  
